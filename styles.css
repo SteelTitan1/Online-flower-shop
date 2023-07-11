@@ -1,0 +1,266 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+a{
+    color:#272727;
+}
+
+.container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding-right: 240px;
+    padding-left: 240px;
+}
+.hero-content{
+    padding-top: 147px;
+    padding-bottom: 147px;
+    
+    
+}
+.hero-content h1{
+text-align: left;
+color: #272727;
+font-size: 80px;
+font-weight: 800;
+}
+.hero-content p{
+color: rgba(39, 39, 39, 0.60);
+font-size: 12px;
+font-weight: 400;
+margin-top: 30px;
+margin-bottom: 30px;
+padding-right: 250px;
+
+}
+.button{
+    background-color: #E55473;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border-style: none;
+}
+#hero-img{
+    height: 100%;
+    
+}
+.feature-container{
+    margin-top:178px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.feature h2{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800px;
+}
+
+.feature p{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    margin:0 663px;
+}
+.feature-link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-right: 240px;
+    
+
+}
+.feature-pic{
+    
+    text-align: center;
+    text-decoration:black;
+    
+}
+
+#feature-pic1{
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+width: 350px;
+height: 350px;
+padding: 100px 50px 0px 50px;
+
+
+}
+
+
+
+#feature-pic2{
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+width: 350px;
+height: 350px;
+padding: 80px 50px  20px 50px;
+
+
+}
+#feature-pic3{
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 350px;
+height: 350px;
+padding: 100px 50px 0px 50px ;
+
+
+
+
+}
+.insta-feature-link-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    
+
+}
+.support{
+    display: flex;
+    flex-direction: row;
+    background-color:  rgba(39, 39, 39, 0.05);
+    justify-content: center;
+    padding: 86px;
+    margin: 75px 260px;
+    
+    
+
+}
+.support-content{
+    padding: 10px 20px;
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    
+}
+
+.signup-container{
+    display: flex;
+    background: rgba(229, 84, 115, 0.10);
+    padding-right:429px;
+    padding-left: 240px;
+}
+.signup-content{
+    margin-right: 97px;
+    padding-top: 147px;
+    padding-bottom: 147px;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px 50px;
+    
+    
+}
+.signup-content p{
+    
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+
+    
+}
+.subscribe{
+    background-image:url(/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top:128px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:122px 287px;
+}
+.subscribe h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.subscribe p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 50px;
+}
+.form-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+.form{
+    padding:20px 500px 20px 10px;
+    text-align: left;
+    border-radius: 5px;
+    border-style: none;
+    
+}
+
+.footer-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 80px 648px;
+
+
+
+
+
+}
+.footer-container h2{
+    color:white;
+font-family: Lato;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+.footer-container p{
+   color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+#credit{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+
+
+
+
+
+
+
